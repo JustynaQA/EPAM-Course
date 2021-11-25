@@ -34,7 +34,24 @@ public class Main {
         System.out.println("Your name is " + name);
         System.out.println("Your name is " + age);
         System.out.println("test");
+        int hours =8;
+        if (hours > 1){
+            System.out.println("I worked: " + hours + " "+ "hour");
+        } else {
+            System.out.println("I worked: " + hours + " "+ "hours");
+        }
 
+        System.out.println("");
+        int total = 0;
+        int count = 2;
+        if (count < 3 && total > -10)
+        {
+            System.out.println("It works");
+        } else if (count > 3 || total ==0) {
+            System.out.println(total * count);
+        }
+
+        System.out.println();
 
     }
 }
