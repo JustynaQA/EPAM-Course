@@ -33,6 +33,7 @@ public class Main {
 
         System.out.println("Your name is " + name);
         System.out.println("Your name is " + age);
+        System.out.println("test");
 
 
     }
